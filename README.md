@@ -1,6 +1,8 @@
 Lectures on scientific computing with Python
 ============================================
 
+<a href="https://notebooks.azure.com/import/gh/jrjohansson/scientific-python-lectures"><img src="https://notebooks.azure.com/launch.png" /></a>
+
 A set of lectures on scientific computing with Python, using IPython notebooks.
 
 To open these notebooks in IPython, download the files to a directory on your computer and from that directory run:
@@ -8,6 +10,11 @@ To open these notebooks in IPython, download the files to a directory on your co
     $ ipython notebook
 
 This will open a new page in your browser with a list of the available notebooks.
+
+Should this error `[TerminalIPythonApp] WARNING | File not found: u'notebook'` pop up, please install Jupyter by following the [instructions](http://jupyter.readthedocs.io/en/latest/install.html) and execute the following command to run the notebook:
+
+    $ jupyter notebook
+
 
 Online read-only versions
 =========================
